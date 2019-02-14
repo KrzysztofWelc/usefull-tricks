@@ -1,0 +1,15 @@
+.container {
+  width: 50%;
+  margin: auto;
+}
+img {
+  width: 100%;
+  opacity: 0;
+  transform: translateX(50%);
+  transition: all 0.5s;
+}
+.shown {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s;
+}
